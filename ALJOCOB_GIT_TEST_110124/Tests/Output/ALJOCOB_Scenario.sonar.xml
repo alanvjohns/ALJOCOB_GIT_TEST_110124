@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 23.2.1.v20231217-1536_93?>
+<!--BMC AMI DevX Total Test 23.2.1.v20231217-1536_93 11 Jan 2024, 17:03:32-->
+<testExecutions version="1">
+  <file path="C:\Users\cpw01\Compuware\Workbench\workspace\ALJOCOB_GIT_TEST_110124\Tests\Scenarios\ALJOCOB_Scenario.testscenario">
+    <testCase name="Unit Test: Test Case: ALJOCOBCase1 for program: ALJOCOB" duration="0">
+      <failure message="Unit Test: Test Case: ALJOCOBCase1 for program: ALJOCOB">Failure    Linkage field: Message: Check for RETURN_CODE failed. Actual: 0 Expected: 4</failure>
+    </testCase>
+  </file>
+</testExecutions>

@@ -1,0 +1,43 @@
+17:03:17.687 INFO      Total Test       ***************************************
+17:03:17.688 INFO      Total Test       ** Execution from Topaz with options **
+17:03:17.688 INFO      Total Test       ***************************************
+17:03:17.688 INFO      Total Test       Using repository: true
+17:03:17.688 INFO      Total Test       Repository URL: http://192.168.101.135:48226/totaltestapi/
+17:03:17.688 INFO      Total Test       ***************************************
+17:03:17.690 INFO      Engine           Test Scenario execution started
+17:03:17.690 INFO      Engine           Using context settings:
+  Engine Version                : 23.2.1.v20231217-1536_93
+  Environment id                : CWCC_Batch
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.bmc.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HUK0320
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+17:03:17.690 INFO      Engine           Setting variables from context and context data extensions
+17:03:17.691 INFO      Engine             id: environmentId      value: CWCC_Batch
+17:03:17.691 INFO      Engine             id: environmentType    value: BATCH
+17:03:17.691 INFO      Engine             id: userId             value: HUK0320
+17:03:17.691 INFO      Engine             id: accountingInfo     value: 
+17:03:17.691 INFO      Engine             id: datasetHQL         value: 
+17:03:17.691 INFO      Unittest         Interpreting Unittest of module: ALJOCOB testscenario path: ALJOCOB_Scenario.testscenario
+17:03:17.709 INFO      Unittest         Using JCL skeleton to submit JCL
+17:03:22.997 INFO      CWCC_Batch       Sending Job execution request to Host 
+17:03:28.839 INFO      CWCC_Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HUK0320A(J0450981) ended with return code: 0000
+  Job name       : HUK0320A
+  Job id         : J0450981
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+17:03:31.967 INFO      Unittest         Execution completed
+17:03:31.969 INFO      Engine           Test Scenario execution ended
